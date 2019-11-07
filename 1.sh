@@ -33,7 +33,8 @@ echo "-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~"
 echo
 echo "按任意键开始安装……"
 read -n1
-
+wget https://liquidtelecom.dl.sourceforge.net/project/xdroid/2.6/xDroidInstall-x86_64-v2.6003-20190327165713.tar.gz
+tar -zxvf xDroidInstall-x86_64-v2.6003-20190327165713.tar.gz
 cd xDroidInstall-x86_64
 sudo chmod +x install.sh
 ./install.sh
